@@ -1,0 +1,23 @@
+{
+  "name": "planly",
+  "version": "1.0.0",
+  "description": "**PlanLy** es un sistema que permite a los usuarios **crear y gestionar proyectos**, asignar tareas con fechas y dependencias, y **calcular automáticamente el camino crítico** del proyecto utilizando el método **CPM (Critical Path Method)**.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+     "dev": "nodemon server.js"
+
+
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
